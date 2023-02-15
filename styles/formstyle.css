@@ -1,0 +1,141 @@
+#bone {
+    display: inline-block;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Gmail_envelope_letter_email-64.png');
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 17px;
+    /* border: 2px solid black; */
+    width: 135px;
+}
+
+fieldset {
+    width: 50%;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    background-color: gray;
+}
+
+legend {
+    text-transform: capitalize;
+    text-align: center;
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+form {
+    text-align: center;
+    /* background-color: gray; */
+}
+
+label {
+    /* background-color: aqua; */
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+#btwo {
+    position: relative;
+    bottom: 10px;
+}
+
+p {
+    text-transform: capitalize;
+}
+
+.same {
+    border-radius: 9px;
+    border: 2px solid black;
+
+}
+
+.same:hover {
+    background-color: aqua;
+    border-color: rgb(0, 0, 0);
+
+
+}
+
+.same:focus {
+    background-color: red;
+}
+
+
+#done {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/essentials-4/1710/lock-64.png');
+    background-size: 14px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 17px;
+    width: 135px;
+}
+
+#cone {
+    color: red;
+    /* border: 2px solid black; */
+    float: left;
+    text-decoration: underline black;
+}
+
+
+button {
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    text-transform: capitalize;
+    width: 70px;
+    position: relative;
+    top: 10px;
+}
+
+button:hover {
+    background-color: rgb(12, 229, 12);
+    border: 2px solid rgb(3, 90, 3);
+}
+
+
+#eone {
+    /* background-color: yellow; */
+    background-image: url('https://cdn1.iconfinder.com/data/icons/neutro-essential/32/home-64.png');
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right;
+    resize: none;
+}
+
+
+#abdul {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/social-media-2070/140/_whatsapp-64.png');
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 17px;
+    width: 135px;
+}
+
+
+
+label {
+    color: black;
+}
+
+.aaa:hover {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+}
+
+.aaa {
+    color: blue;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: sienna;
+}
