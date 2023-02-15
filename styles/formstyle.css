@@ -83,7 +83,6 @@ p {
     text-decoration: underline black;
 }
 
-
 button {
     border-radius: 10px;
     color: white;
@@ -95,10 +94,10 @@ button {
 }
 
 button:hover {
-    background-color: rgb(12, 229, 12);
-    border: 2px solid rgb(3, 90, 3);
+    background-color: rgb(6, 137, 6);
+    color: #000;
+    border: 2px solid rgb(100, 59,20);
 }
-
 
 #eone {
     /* background-color: yellow; */
@@ -108,7 +107,6 @@ button:hover {
     background-position: right;
     resize: none;
 }
-
 
 #abdul {
     background-image: url('https://cdn4.iconfinder.com/data/icons/social-media-2070/140/_whatsapp-64.png');
