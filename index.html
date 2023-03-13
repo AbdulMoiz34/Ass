@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORM</title>
     <link rel="stylesheet" href="./styles/formstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 
 <body>
@@ -14,15 +15,24 @@
         <legend>login form</legend>
 
         <form>
-            <label for="">Email</label><input required class="same" type="text" id="bone"><br><br>
-            <label for="">Password</label><input required class="same" id="done" type="password"><br><br>
-            <label for="" id="btwo">Address</label><textarea required id="eone" class="same"></textarea><br><br>
-            <label for="">Contact</label><input id="abdul" class="same" type="text"><br><br>
+            <label for="">Email</label><input required class="same" type="text" id="bone"
+                placeholder="Enter Email"><br><br>
+            <label for="">Password</label><input required class="same" id="done" type="password"
+                placeholder="Enter Password"><br><br>
+            <label for="" id="btwo">Address</label><textarea required id="eone" class="same"
+                placeholder="Enter Address"></textarea><br><br>
+            <label for="">Contact</label><input id="abdul" class="same" placeholder="Enter phone number" type="text"><br><br>
             <p>Choose your gender;</p>
-            <input type="radio" name="abc" id="one"><label for="one">Male</label>
-            <input type="radio" name="abc" id="two"><label for="two">Female</label>
-            <input type="file" class="aaa" name=""><br><br>
-            <button type="submit">submit</button>
+            <input type="radio" name="abc" id="one"><label for="one" class="male">Male</label>
+            <input type="radio" name="abc" id="two"><label for="two" class="female">Female</label>
+            <div class="button">
+                <button class="upload-btn">
+                    <i class="fa-sharp fa-solid fa-upload"></i> Upload <input type="file">
+                </button>
+            </div>
+            <button type="submit" class="submit-btn">
+                Submit
+            </button>
         </form>
 
     </fieldset>
