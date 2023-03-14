@@ -203,4 +203,7 @@ label {
     .submit-btn {
         width: 100%;
     }
+    fieldset {
+        width: 80%;
+    }
 }
